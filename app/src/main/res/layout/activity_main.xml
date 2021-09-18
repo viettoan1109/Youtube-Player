@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        app:layoutDescription="@xml/activity_main_scene"
+        tools:context=".ui.main.MainActivity"
+        tools:ignore="MotionLayoutInvalidSceneFileReference">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linear_main_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:elevation="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16.97dp"
+                        android:layout_height="18.7dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="18dp"
+                        android:src="@drawable/img_logo" />
+
+                    <com.hello.youtubeplayer.ui.customview.GradientTextView
+                        android:id="@+id/tv_main_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/main_title_music"
+                        android:textSize="18sp"
+                        app:gradientCenter="@color/text_red_gran_3"
+                        app:gradientEnd="@color/text_red_gran_2"
+                        app:gradientStart="@color/text_red_gran_1" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager_main"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toTopOf="@+id/appbarLayout"
+                app:layout_constraintTop_toBottomOf="@+id/card_main_title" />
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:elevation="20dp"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabLayout_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:elevation="20dp"
+                    app:tabIndicatorColor="@android:color/white"
+                    app:tabSelectedTextColor="@color/text_red_gran_2"
+                    app:tabTextAppearance="@style/customfontstyle"
+                    app:tabTextColor="@android:color/black" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+        </LinearLayout>
+
+
+        <!--
+                <FrameLayout
+                    android:id="@+id/frame_main_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:elevation="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <View
+                        android:id="@+id/backgroundDim"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="10dp" />
+                </FrameLayout>
+        -->
+
+        <!--<View
+            android:id="@+id/alpha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E61212"
+            tools:visibility="gone" />-->
+
+        <com.hello.youtubeplayer.ui.customview.DraggableSource
+            android:id="@+id/draggablePanel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:height_when_min="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:margin_bottom_when_min="70dp"
+            app:state="CLOSE"
+            tools:visibility="gone" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+

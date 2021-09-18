@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title_music">ホームページ</string>
+    <string name="main_title_trending">一般</string>
+    <string name="main_title_setting">設定</string>
+    <string name="main_title_search">探す</string>
+
+    <string name="main_tab_home">ホームページ</string>
+    <string name="main_tab_trending">一般</string>
+    <string name="main_tab_setting">設定</string>
+    <string name="main_tab_search">探す</string>
+
+    <string name="playVideo_share">シェア</string>
+    <string name="playVideo_download">ダウンロード</string>
+    <string name="playVideo_comment">コメント</string>
+    <string name="playVideo_up_next">次に</string>
+
+    <string name="setting_languages">言語</string>
+    <string name="setting_get_noti">お知らせ</string>
+    <string name="setting_policy">セキュリティ</string>
+
+    <string name="search_layout_recent">歴史</string>
+
+    <string name="hint_search_edit">探す</string>
+
+    <string name="title_language">言語</string>
+
+    <string name="setting_play_background">背景を再生する</string>
+
+    <string name="view">ビュー</string>
+
+    <string name="language_eng">英語</string>
+    <string name="language_vie">ベトナム</string>
+    <string name="language_jan">日本</string>
+    <string name="comment">コメント</string>
+    <string name="subscribe"> 申し込む</string>
+
+    <string name="daily_notificatiom">今日最もホットなビデオをお見逃しなく</string>
+    <string name="view_count"> 見る</string>
+    <string name="view_count_m"> 百万ビュー</string>
+    <string name="view_count_b"> 10億ビュー</string>
+
+    <string name="last_year"> 昨年</string>
+    <string name="last_month"> 先月</string>
+    <string name="last_day"> 昨日</string>
+    <string name="hours_ago"> 時間前</string>
+    <string name="minute_ago"> 1分前</string>
+
+</resources>

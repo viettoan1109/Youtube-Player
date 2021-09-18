@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name" translatable="false">YoutubePlayer</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="main_title_music">Youtube Music</string>
+    <string name="main_title_trending">Trending</string>
+    <string name="main_title_setting">Setting</string>
+    <string name="main_title_search">Search</string>
+
+    <string name="main_tab_home">Home</string>
+    <string name="main_tab_trending">Trending</string>
+    <string name="main_tab_setting">Setting</string>
+    <string name="main_tab_search">Search</string>
+
+    <string name="playVideo_like" translatable="false">000</string>
+    <string name="playVideo_disLike" translatable="false">000</string>
+    <string name="playVideo_share">Share</string>
+    <string name="playVideo_download">Download</string>
+    <string name="playVideo_comment">Comment</string>
+    <string name="playVideo_up_next">Up Next</string>
+
+    <string name="setting_languages">Languages</string>
+    <string name="setting_play_background">Play Background</string>
+    <string name="setting_get_noti">Get Notification in morning</string>
+    <string name="setting_policy">Policy</string>
+
+    <string name="search_layout_recent">Recent</string>
+
+    <string name="hint_search_edit">Search Youtube…</string>
+    <string name="title_language">Language</string>
+
+    <string name="view">Views</string>
+
+    <string name="language_eng">English</string>
+    <string name="language_vie">Tiếng Việt</string>
+    <string name="language_jan">Japan</string>
+    <string name="comment">Comment</string>
+    <string name="subscribe"> Subscribe</string>
+
+    <string name="daily_notificatiom">Do not miss the hottest videos today</string>
+    <string name="view_count"> Views</string>
+    <string name="view_count_m"> M View</string>
+    <string name="view_count_b"> B Views</string>
+
+    <string name="last_year"> last year</string>
+    <string name="last_month"> last month</string>
+    <string name="last_day"> last day</string>
+    <string name="hours_ago"> hours ago</string>
+    <string name="minute_ago"> minute ago</string>
+
+
+</resources>

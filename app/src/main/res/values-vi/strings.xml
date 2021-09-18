@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title_music">Trang chủ</string>
+    <string name="main_title_trending">Phổ biến</string>
+    <string name="main_title_setting">Cài đặt</string>
+    <string name="main_title_search">Tìm kiếm</string>
+
+    <string name="main_tab_home">Trang chủ</string>
+    <string name="main_tab_trending">Phổ biến</string>
+    <string name="main_tab_setting">Cài đặt</string>
+    <string name="main_tab_search">Tìm kiếm</string>
+
+    <string name="playVideo_share">Chia sẻ</string>
+    <string name="playVideo_download">Tải xuống</string>
+    <string name="playVideo_comment">Bình luận</string>
+    <string name="playVideo_up_next">Tiếp theo</string>
+
+    <string name="setting_languages">Ngôn ngữ</string>
+    <string name="setting_get_noti">Thông báo</string>
+    <string name="setting_policy">Bảo mật</string>
+
+    <string name="search_layout_recent">Lịch sử</string>
+
+    <string name="hint_search_edit">Tìm kiếm</string>
+
+    <string name="title_language">Ngôn ngữ</string>
+
+    <string name="setting_play_background">Chạy dưới nền</string>
+
+    <string name="view">Lượt xem</string>
+
+    <string name="language_eng">Tiếng anh</string>
+    <string name="language_vie">Tiếng việt</string>
+    <string name="language_jan">Tiếng nhật</string>
+    <string name="comment">Bình luận</string>
+
+    <string name="subscribe"> Đăng ký</string>
+
+    <string name="daily_notificatiom">Đừng bỏ lỡ những video hot nhất hiện nay</string>
+    <string name="view_count"> Lượt xem</string>
+    <string name="view_count_m"> Triệu lượt xem</string>
+    <string name="view_count_b"> Tỷ lượt xem</string>
+
+    <string name="last_year"> năm trước</string>
+    <string name="last_month"> tháng trước</string>
+    <string name="last_day"> ngày trước</string>
+    <string name="hours_ago"> giờ trước</string>
+    <string name="minute_ago"> phút trước</string>
+
+</resources>

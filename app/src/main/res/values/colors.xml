@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="gray">#F2F2F2</color>
+
+    <color name="text_gray">#828282</color>
+    <color name="line_gray">#BDBDBD</color>
+
+    <color name="text_red_gran_1">#FF7100</color>
+    <color name="text_red_gran_2">#FF0200</color>
+    <color name="text_red_gran_3">#FF0000</color>
+</resources>
